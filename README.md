@@ -23,6 +23,12 @@ An `example.csv` file in `data/` shows the expected column order for the output 
 python src/main.py
 ```
 
+Optional arguments let you point to alternative locations:
+
+```bash
+python src/main.py --memberpress ~/exports/mp.csv --genius ~/exports/gr.csv --output ./output/custom.csv
+```
+
 Running the script will:
 
 - Read both source CSV files.
