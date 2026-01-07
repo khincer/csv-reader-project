@@ -7,7 +7,7 @@ from typing import Sequence
 
 from csv_reader import CSVReader
 
-DEFAULT_OUTPUT_FILENAME = "missing-memberpress-users.csv"
+DEFAULT_OUTPUT_FILENAME = "missing-contacts.csv"
 
 
 def main(argv: Sequence[str] | None = None) -> None:
