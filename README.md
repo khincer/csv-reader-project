@@ -7,14 +7,6 @@ A Python utility that reconciles MemberPress exports against Genius Referrals an
 ```bash
 pip install -r requirements.txt
 ```
-
-## Input Files
-
-Place the following files inside `data/` before running the tool:
-
-1. `memberpress.csv` – export from MemberPress that must include `first_name`, `last_name`, and `email` columns.
-2. `genius-referrals.csv` – export from Genius Referrals that must include a `MEMBER_EMAIL` column.
-
 An `example.csv` file in `data/` shows the expected column order for the output that Genius Referrals accepts.
 
 ## Usage
